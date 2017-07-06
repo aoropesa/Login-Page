@@ -1,0 +1,83 @@
+@font-face {
+        font-family: Forza-Medium;
+        src: url(Forza-Medium.otf);
+    }
+@font-face {
+        font-family: Forza;
+        src: url(Forza-Book.otf);
+    }
+body{
+  background-color: #8491a5;
+  margin:0;
+}
+img{
+   height: 17vh;
+    align-self: center;
+    }
+.container{
+  margin: 0 auto;
+  display: flex;
+  height: 100vh;
+  flex: 1;
+  flex-direction: column;
+  background-color: #ffffff;
+  justify-content: center;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+h5{
+  flex: 1;
+  font-family: Forza-Medium;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #7D7773;
+    }
+input{
+  flex: 2;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 1rem;
+  font-family: Forza-Medium;
+  color: #B3DAA6;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  text-align: left;
+    }
+
+.ensayinfo{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.foo{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: stretch;
+}
+.in{
+  font-size: 1rem;
+  text-align: center;
+  align-self: stretch;
+  font-family: Forza;
+  background-color: #9ccf8a;
+  padding: 1rem;
+  color: #FBFCFA;
+  letter-spacing: 0.3rem;
+}
+.up{
+  font-size: 1rem;
+  text-align: center;
+  align-self: stretch;
+  font-family: Forza;
+  background-color: #4e4f4e;
+  padding: 1rem;
+  color: #FBFCFA;
+  letter-spacing: 0.2rem;
+}
